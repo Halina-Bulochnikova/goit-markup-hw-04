@@ -76,11 +76,11 @@ img {
   color: #2e2f42;
   padding: 24px 0;
 }
-.link-nav-list-item::after {
-  content: "";
+.active::after {
+  content: "--- ";
   display: block;
   border-radius: 2px;
-  width: 100%;
+  width: 48px;
   height: 4px;
   color: #404bbf; 
 }
@@ -199,6 +199,16 @@ img {
   width: calc((100% - 72px) / 4);
 
 }
+
+.advantage-list-icon {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  padding: 24px 100px 24px 100px;
+  margin-bottom: 8px;
+}
 .advanteges-list {
   font-weight: 500;
   font-size: 20px;
@@ -268,6 +278,22 @@ width: 1140px;
   margin: 0;
   
 }
+.team-soc-list {
+  display: flex;
+  width: 232px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  gap: 24px;
+}
+.team-soc-link {
+
+}
+.team-soc-icon {
+
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
